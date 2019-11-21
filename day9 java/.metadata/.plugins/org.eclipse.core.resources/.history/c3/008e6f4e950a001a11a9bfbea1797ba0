@@ -1,0 +1,16 @@
+package com.hcl.Files;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class ReadEmploy { 
+	public static void main(String[] args) {
+		Employ employ=null;
+		FileInputStream fin=new FileInputStream("C:/files/employ.txt");
+		ObjectInputStream objin=new ObjectInputStream(fin);
+		employ=(Employ)objin.readObject();
+		
+	
+}
+
+}

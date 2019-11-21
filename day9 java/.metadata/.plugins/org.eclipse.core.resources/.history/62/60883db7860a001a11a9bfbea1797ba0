@@ -1,0 +1,21 @@
+package com.hcl.Files;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class Foutput {
+	public static void main(String[] args) {
+		try {
+			FileInputStream src=new FileInputStream("C:/day9 java/day9 java/src/com/hcl/Files/Files.java");
+			FileOutputStream tar=new FileOutputStream("C:/files/cpy.txt");
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

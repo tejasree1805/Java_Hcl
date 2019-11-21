@@ -1,0 +1,16 @@
+package com.hcl.Files;
+
+public class StudentTemplate { 
+	public static void main(String[] args) {
+		 int studentno;
+		 String name;
+		 String lastname;
+		 double cgpa;
+		 
+		 
+		 
+		
+	}
+	
+
+}

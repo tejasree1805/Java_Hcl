@@ -1,0 +1,10 @@
+package com.hcl.Files;
+
+import java.io.FileOutputStream;
+
+public class WriteEmploy {
+	public static void main(String[] args) { 
+		Employ employ = new Employ(1,"jana", 66235);
+		FileOutputStream fout= new FileOutputStream("C:/files/employ.txt")
+		
+}

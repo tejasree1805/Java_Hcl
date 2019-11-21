@@ -1,0 +1,19 @@
+package com.hcl.Files;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class Student {
+	public static void main(String[] args) {
+		Student StudentTemplate = new Student(5207, "janapriya","voonna",9.5);
+		FileOutputStream fout = new FileOutputStream("C:/files/employ.txt");
+		ObjectOutputStream obj =new ObjectOutputStream(fout);
+		obj.writeObject(StudentTemplate);
+		obj.close();
+		fout.close(); 
+		
+		
+		
+	}
+
+}
